@@ -4,10 +4,10 @@ var countLetters = function countLetters(letters) {
    
     for (var i = 0; i < letters.length; i++) {
       var letter = letters[i];
-      var total = 1;
+      
       if (letter !== ' ') {
-      letterCounts[letter] = total;
-      letterCounts[letter] += total; 
+      letterCounts[letter] = 1;
+      letterCounts[letter] += 1; 
       }
     }
     return letterCounts;
